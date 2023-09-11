@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader
 import openai
 
-reader = PdfReader("BrianDrolet.pdf")
+reader = PdfReader("pdfname.pdf")
 number_of_pages = len(reader.pages)
 page = reader.pages[0]
 
